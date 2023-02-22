@@ -9,15 +9,15 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div id="screen">
-        
-    </div>
+    <div id="screen-past"></div>
+    <div id="screen-current"></div>
     <div class="button-grid">
         <button class="operator" data-op>+</button>
         <button class="operator" data-op>-</button> 
         <button class="operator" data-op>x</button>
         <button class="operator" data-op>/</button>
-        <button class="operator" data-op>=</button>
+        <button class="operator" id="equal">=</button>
+        <button id="clear">Clear</button>
         <button class="number" data-num>9</button>
         <button class="number" data-num>8</button>
         <button class="number" data-num>7</button>
@@ -28,7 +28,7 @@
         <button class="number" data-num>2</button>
         <button class="number" data-num>1</button>
         <button class="number" data-num>0</button>     
-        <button class="number" data-num>.</button>   
+        <button id="decimal">.</button>   
     </div>
     
 </body>
