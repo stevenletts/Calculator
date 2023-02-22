@@ -41,7 +41,7 @@
 }
 .calculator {
     width: 400px;
-    height: 600px;
+    height: 550px;
     border: 2px rgb(0, 65, 109) solid;
     border-radius: 30px;
     padding: 20px;
@@ -89,5 +89,4 @@
   #equal {
     grid-row: span 2;
     background-color: rgb(1, 64, 107);
-
   }
